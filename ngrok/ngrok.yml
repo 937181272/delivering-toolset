@@ -1,0 +1,8 @@
+server_addr: tunnel.shukun.net:4443
+trust_host_root_certs: false
+auth_token: devops1:testpwd
+tunnels:
+  ssh:
+    proto:
+      tcp: 22
+    remote_port: 50000

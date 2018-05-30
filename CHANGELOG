@@ -1,0 +1,62 @@
+# 0.2.1
+修复安装过程中使用目录问题
+使用daphne代替botree
+
+# 0.0.2
+完善cypress, botree更新脚本
+# 0.0.3
+添加备份配置脚本
+
+# 0.0.4
+去除脚本中密码
+应用前端ip替换
+添加模型更新脚本
+
+# 0.1.5
+添加ngrok
+添加ssh proxy
+
+# 0.1.6
+cta2d
+dicomer
+
+# 0.1.7
+模型分割后修改安装脚本
+修改更新前端中删除安装包错误
+
+# 0.1.8
+添加ngrok安装启动脚本
+添加jenkins安装启动脚本
+去除ngrok
+
+# 0.1.9
+添加压缩脚本
+
+# 0.2.0
+CFDA安装脚本
+daphne更新脚本
+
+# 0.2.3
+admin 更新脚本
+
+# 0.2.4
+添加app level支持
+
+# 0.2.5
+添加新模型
+
+# 0.2.6
+添加dotest
+
+# 0.2.7
+fix dotest bug
+
+# 0.2.8
+fix update model bug
+
+# 0.2.9
+update new model
+
+# 0.2.10
+rm ip dep
+

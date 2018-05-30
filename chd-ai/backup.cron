@@ -1,0 +1,7 @@
+0 */1 * * * /home/devops1/sk/delivering-toolset/chd-ai/restart_slave.sh zdyfy-001 8343ca6839af4df0b8d4fbc4355c0c6fdc4ee9176db4cf42 >> /data0/rundata/logs/jenkins.log 2>&1
+0 23 * * * /home/devops1/sk/delivering-toolset/chd-ai/backup_mongo.sh cta_user cta_r2d2c3p0! cta zdyfy-001 >> /data0/rundata/logs/backup_mongo.log 2>&1
+0 23 * * * /home/devops1/sk/delivering-toolset/chd-ai/backup_mysql.sh shukun skdev0ps! cta zdyfy-001 >> /data0/rundata/logs/backup_mysql.log 2>&1
+0 */3 * * * /home/devops1/sk/delivering-toolset/chd-ai/backup_cases.sh zdyfy-001 >> /data0/rundata/logs/backup_cases.log 2>&1
+0 22 * * * /home/devops1/sk/delivering-toolset/chd-ai/backup_log.sh zdyfy-001 >> /data0/rundata/logs/backup_log.log 2>&1
+0 */4 * * * /home/devops1/sk/delivering-toolset/chd-ai/restart_network.sh
+0 23 * * * /home/devops1/sk/delivering-toolset/chd-ai/backup_configs.sh zdyfy-001 >> /data0/rundata/logs/backup_configs.log 2>&1
